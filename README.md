@@ -12,12 +12,12 @@ Link: <https://figshare.com/articles/dataset/24760827>
 30 EEG channels · 256 Hz · 484 player trials.
 
 Pipeline:
-1. Upload a `Player_*.mat` file → extract EEG + labels  
+1. Upload a Player_*.mat file → extract EEG + labels  
 2. 1–40 Hz band‑pass, per‑epoch z‑score  
 3. Log band‑power features (δ θ α β γ) + θ/α and β/α ratios  
 4. Tuned Random‑Forest (1 000 trees, depth 10)  
 
-Full code in **`EEG_Deception_Final.ipynb`** (8 cells, < 5 min runtime on Colab).
+Full code in EEG_Deception_Final.ipynb (8 cells, < 5 min runtime on Colab).
 
 Quick start:
 ```bash
