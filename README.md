@@ -4,7 +4,6 @@ Simple, reproducible pipeline that distinguishes **spontaneous lies** from **spo
 
 The Metrics: Accuracy - 0.63; Macro F1 - 0.62; Lie recall - 0.73; Truth recall - 0.52.
 
-![Confusion matrix](confmat.png)
 
 Dataset:
 Title: *An EEG Dataset of Neural Signatures in a Competitive Two‑Player Game Encouraging Deceptive Behavior*  
